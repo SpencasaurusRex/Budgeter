@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeroesComponent } from './heroes/heroes.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { SourcesComponent } from './sources/sources.component';
+import { ClassifyComponent } from './classify/classify.component';
+import { RulesComponent } from './rules/rules.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { BreakdownComponent } from './breakdown/breakdown.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/sources', pathMatch: 'full'},
-  { path: 'sources', component: DashboardComponent },
-  { path: 'heroes', component: HeroesComponent }
+  { path: 'sources', component: SourcesComponent },
+  { path: 'classify', component: ClassifyComponent },
+  { path: 'rules', component: RulesComponent },
+  { path: 'categories', component: CategoriesComponent },
+  { path: 'breakdown', component: BreakdownComponent },
 ];
 
 @NgModule({

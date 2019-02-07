@@ -4,21 +4,18 @@
   background-color: #3388ee;
 }
 
-.title {
-  font-size: 18px !important;
-}
-
 a.nav-link {
-  padding: 20px 25px;
+  margin: 10px 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  font-weight: 600;
   font-size: 16px;
 }
 
 a:hover.nav-link {
-  color: #ddd;
+  background-color: #1177cc;
 }
 
 .content {
