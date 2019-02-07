@@ -1,0 +1,11 @@
+<div class="nav-bar">
+  <a routerLink="/" class="title nav-link">{{title}}</a>
+  <a routerLink="/sources" class="nav-link">Sources</a>
+  <a routerLink="/classify" class="nav-link">Classify</a>
+  <a routerLink="/rules" class="nav-link">Rules</a>
+  <a routerLink="/breakdown" class="nav-link">Breakdown</a>
+</div>
+<div class="content">
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</div>

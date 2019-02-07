@@ -1,0 +1,26 @@
+/* AppComponent's private CSS styles */
+.nav-bar {
+  display: flex;
+  background-color: #3388ee;
+}
+
+.title {
+  font-size: 18px !important;
+}
+
+a.nav-link {
+  padding: 20px 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover.nav-link {
+  color: #ddd;
+}
+
+.content {
+  margin:3em;
+}
