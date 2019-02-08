@@ -1,3 +1,8 @@
-<p>
-  sources works!
-</p>
+<h2>Sources</h2>
+<div *ngIf="sources && sources.length" class="list">
+  <div class="source-block" (click)="onSelect(source)" *ngFor="let source of sources">
+    <span *ngIf="selectedSource === source" class="badge"></span>
+    {{source.name}}
+  </div>
+</div>
+<app-source-detail [source]="selectedSource"></app-source-detail>

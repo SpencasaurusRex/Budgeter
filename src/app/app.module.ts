@@ -13,6 +13,7 @@ import { ClassifyComponent } from './classify/classify.component';
 import { RulesComponent } from './rules/rules.component';
 import { BreakdownComponent } from './breakdown/breakdown.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { SourceDetailComponent } from './source-detail/source-detail.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CategoriesComponent } from './categories/categories.component';
     ClassifyComponent,
     RulesComponent,
     BreakdownComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    SourceDetailComponent
   ],
   imports: [
     BrowserModule,

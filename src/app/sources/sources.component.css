@@ -1,0 +1,32 @@
+.source-block {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 10em;
+  background-color: #eeeeee;
+  height: 1em;
+}
+
+.source-block:hover {
+  background-color: #ddd;
+}
+
+.badge {
+  float: left;
+  position: relative;
+  height: 2.2em;
+  left: -.6em;
+  top: -.6em;
+  min-width: 1em;
+  background-color: #17c;
+  border-radius: 5px 0 0 5px;
+}
+
+.list {
+  width: 40%;
+  float: left;
+}
+
+.details {
+  width: 40%;
+}
