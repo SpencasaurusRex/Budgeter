@@ -16,8 +16,13 @@ a.nav-link {
 
 a:hover.nav-link {
   background-color: #1177cc;
+  -webkit-transition: background-color 150ms linear;
+  -ms-transition: background-color 150ms linear;
+  transition: background-color 150ms linear;
 }
 
 .content {
-  margin:3em;
+  margin: 0 auto;
+  padding: 2em;
+  width: 60%;
 }

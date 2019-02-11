@@ -24,5 +24,8 @@ export class SourcesComponent implements OnInit {
 
   ngOnInit() {
     this.getSources();
+    if (this.sources[0]) {
+      this.onSelect(this.sources[0]);
+    }
   }
 }

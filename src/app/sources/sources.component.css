@@ -1,32 +1,23 @@
 .source-block {
   padding: 10px;
   margin: 10px;
-  border-radius: 5px;
-  width: 10em;
-  background-color: #eeeeee;
-  height: 1em;
+  /* width: 10em; */
+  height: 2.5em;
+  padding-left: 1em;
+  border: 1px solid #ccc;
 }
 
 .source-block:hover {
-  background-color: #ddd;
-}
-
-.badge {
-  float: left;
-  position: relative;
-  height: 2.2em;
-  left: -.6em;
-  top: -.6em;
-  min-width: 1em;
-  background-color: #17c;
-  border-radius: 5px 0 0 5px;
+  background-color: #eee;
 }
 
 .list {
-  width: 40%;
+  width: 20%;
   float: left;
+  min-width: 15em;
 }
 
 .details {
-  width: 40%;
+  width: 60%;
+  float: left;
 }
