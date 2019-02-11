@@ -7,7 +7,7 @@
   border: 1px solid #ccc;
 }
 
-.source-block:hover {
+.source-block:hover, .source-block.selected{
   background-color: #eee;
 }
 
