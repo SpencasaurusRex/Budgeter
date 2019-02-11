@@ -22,6 +22,7 @@
 .block {
   border: 1px solid #ccc;
   margin-right: 2em;
+  margin-bottom: 2em;
 }
 
 .block-header {

@@ -19,5 +19,6 @@
 
 .details {
   width: 60%;
+  min-width: 30em;
   float: left;
 }

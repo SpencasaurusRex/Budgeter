@@ -1,4 +1,8 @@
 <div class="block">
   <div class="block-header">{{source.name}} Details</div>
-  <div class="block-content">{{source.id}}</div>
+  <div class="block-content">
+    <label>Name:
+      <input [(ngModel)]="source.name" placeholder="name">
+    </label>
+  </div>
 </div>
