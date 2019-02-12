@@ -1,6 +1,6 @@
 .source-block {
   padding: 10px;
-  margin: 10px;
+  margin: .5em 0 ;
   /* width: 10em; */
   height: 2.5em;
   padding-left: 1em;
@@ -12,13 +12,15 @@
 }
 
 .list {
-  width: 20%;
   float: left;
   min-width: 15em;
 }
 
 .details {
-  width: 60%;
   min-width: 30em;
   float: left;
+}
+
+.link-button {
+  margin-left: .5em;
 }

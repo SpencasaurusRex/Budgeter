@@ -4,6 +4,7 @@
     <div class="source-block" [class.selected]="selectedSource === source" (click)="onSelect(source)" *ngFor="let source of sources">
       <div class="source-name">{{source.name}}</div>
     </div>
+    <button class="link-button" (click)='addSource()'>+ new source</button>
   </div>
 </div>
 <app-source-detail [source]="selectedSource" class="details"></app-source-detail>

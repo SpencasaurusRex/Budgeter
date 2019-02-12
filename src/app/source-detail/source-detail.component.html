@@ -1,8 +1,9 @@
-<div class="block">
+<div class="block" *ngIf="source">
   <div class="block-header">{{source.name}} Details</div>
   <div class="block-content">
-    <label>Name:
-      <input [(ngModel)]="source.name" placeholder="name">
+    <label class="field">Name:
+      <input [(ngModel)]="source.name" placeholder="name" maxlength="14">
     </label>
+    <button class="warning" (click)="deleteSource()">Delete Source</button>
   </div>
 </div>

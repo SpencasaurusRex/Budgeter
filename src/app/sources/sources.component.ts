@@ -20,6 +20,12 @@ export class SourcesComponent implements OnInit {
     this.selectedSource = source;
   }
 
+  addSource() {
+    const newSource: Source = { id: -1, name: '' };
+    this.sourceService.addSource(newSource);
+    this.selectedSource = newSource;
+  }
+
   constructor(private sourceService: SourceService) { }
 
   ngOnInit() {
